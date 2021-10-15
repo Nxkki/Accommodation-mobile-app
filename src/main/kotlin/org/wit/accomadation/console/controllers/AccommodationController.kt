@@ -16,6 +16,25 @@ class AccommodationController {
         println("Accommodation Kotlin App Version 1.0")
     }
 
+    fun start() {
+        var input: Int
+
+        do {
+            input = menu()
+            when (input) {
+                1 -> add()
+                2 -> update()
+                3 -> list()
+                4 -> search()
+                -99 -> dummyData()
+                -1 -> println("Exiting App")
+                else -> println("Invalid Option")
+            }
+            println()
+        } while (input != -1)
+        logger.info { "Shutting Down Placemark Console App" }
+    }
+
     fun menu() :Int { return accommodationView.menu() }
 
     fun add(){
