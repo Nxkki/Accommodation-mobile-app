@@ -2,6 +2,7 @@ package org.wit.accommodation.console.views
 
 
 //import org.wit.accommodation.console.main.accommodations
+import org.wit.accommodation.console.models.AccommodationJSONStore
 import org.wit.accommodation.console.models.AccommodationMemStore
 import org.wit.accommodation.console.models.AccommodationModel
 
@@ -28,7 +29,7 @@ class AccommodationView {
         return option
     }
 
-    fun listAccommodations(accommodations : AccommodationMemStore) {
+    fun listAccommodations(accommodations : AccommodationJSONStore) {
         println("List All Accommodations")
         println()
         accommodations.logAll()

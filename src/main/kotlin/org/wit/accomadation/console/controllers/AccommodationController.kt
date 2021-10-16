@@ -1,14 +1,18 @@
 package org.wit.accommodation.console.controllers
 
 import mu.KotlinLogging
+import org.wit.accommodation.console.models.AccommodationJSONStore
 import org.wit.accommodation.console.models.AccommodationMemStore
 import org.wit.accommodation.console.models.AccommodationModel
 import org.wit.accommodation.console.views.AccommodationView
 
 class AccommodationController {
 
-    val accommodations = AccommodationMemStore()
+//   val accommodations = AccommodationMemStore()
+    val accommodations = AccommodationJSONStore()
+
     val accommodationView = AccommodationView()
+
     val logger = KotlinLogging.logger {}
 
     init {

@@ -1,0 +1,16 @@
+[
+  {
+    "id": -1645318405472022173,
+    "price": 2,
+    "location": "w",
+    "type": "ws",
+    "rooms": "s"
+  },
+  {
+    "id": 1961953117309211064,
+    "price": 334,
+    "location": "fre",
+    "type": "rf",
+    "rooms": "rff"
+  }
+]

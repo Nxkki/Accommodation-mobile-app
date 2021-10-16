@@ -50,8 +50,8 @@
 //}
 package org.wit.accommodation.console.models
 import mu.KotlinLogging
-import AccommodationStore
-
+//import org.wit.accommodation.console.models.AccommodationStore
+//import AccommodationStore
 
 private val logger = KotlinLogging.logger {}
 var lastId = 0L
