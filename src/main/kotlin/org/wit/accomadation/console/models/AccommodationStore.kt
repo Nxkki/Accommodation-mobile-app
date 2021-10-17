@@ -25,6 +25,7 @@ interface AccommodationStore {
     fun findOne(id: Long): AccommodationModel?
     fun create(accommodation: AccommodationModel)
     fun update(accommodation: AccommodationModel)
+    fun delete(accommodation: AccommodationModel)
 }
 fun generateRandomId(): Long {
     return Random().nextLong()
@@ -55,6 +56,13 @@ class AccommodationJSONStore : AccommodationStore {
         serialize()
     }
 
+    override fun delete(accommodation: AccommodationModel) {
+        var foundAccommodation = findOne(accommodation.id!!)
+        if (foundAccommodation != null) {
+
+            accommodations.remove(accommodation)
+        }
+    }
     override fun update(accommodation: AccommodationModel) {
         var foundAccommodation = findOne(accommodation.id!!)
         if (foundAccommodation != null) {

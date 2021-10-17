@@ -30,6 +30,7 @@ class AccommodationController {
                 2 -> update()
                 3 -> list()
                 4 -> search()
+                5 -> delete()
                 -99 -> dummyData()
                 -1 -> println("Exiting App")
                 else -> println("Invalid Option")
@@ -53,6 +54,33 @@ class AccommodationController {
     fun list() {
         accommodationView.listAccommodations(accommodations)
     }
+
+    fun delete(){
+
+        accommodationView.listAccommodations(accommodations)
+        var searchId = accommodationView.getId()
+        val aAccommodation = search(searchId)
+
+        if(aAccommodation != null) {
+
+//            if(accommodationView.deleteAccommodationData(aAccommodation)) {
+//                accommodationView.deleteAccommodationData(aAccommodation)
+            if (accommodationView.deleteAccommodationData(aAccommodation)) {
+                accommodations.delete(aAccommodation)
+                accommodationView.showAccommodation(aAccommodation)
+
+                logger.info("Accommodation  Deleted...")
+            }
+        }
+        else
+            logger.info("Accommodation Not Deleted...")
+//    }
+//        else
+//        println("Accommodation Not Deleted...")
+    }
+
+
+
 
     fun update() {
 

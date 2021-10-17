@@ -3,6 +3,13 @@ import org.wit.accommodation.console.controllers.AccommodationController
 fun main(args: Array<String>) {
     val controller = AccommodationController().start()
 }
+
+
+//----------------------------------
+//--delete isnot presistant
+//refuess to delete some
+
+//-----------------------------
 //package org.wit.accommodation.console.main
 //
 //import mu.KotlinLogging

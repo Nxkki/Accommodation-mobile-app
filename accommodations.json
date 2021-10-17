@@ -12,5 +12,26 @@
     "location": "fre",
     "type": "rf",
     "rooms": "rff"
+  },
+  {
+    "id": 7255039030979603099,
+    "price": 22,
+    "location": "tkyr",
+    "type": "utut",
+    "rooms": "utdy"
+  },
+  {
+    "id": -5757643223167080408,
+    "price": 11,
+    "location": "ww",
+    "type": "wdw",
+    "rooms": "qwd"
+  },
+  {
+    "id": 6182440271640798222,
+    "price": 777,
+    "location": "777",
+    "type": "uuii",
+    "rooms": "jjkj"
   }
 ]

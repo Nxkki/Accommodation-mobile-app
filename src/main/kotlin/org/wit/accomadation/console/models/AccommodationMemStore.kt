@@ -79,6 +79,15 @@ class AccommodationMemStore : AccommodationStore {
         logAll()
     }
 
+
+
+    override fun delete(accommodation: AccommodationModel) {
+        var foundAccommodation = findOne(accommodation.id!!)
+        if (foundAccommodation != null) {
+
+            accommodations.remove(accommodation)
+        }
+    }
     override fun update(accommodation: AccommodationModel) {
         var foundAccommodation = findOne(accommodation.id!!)
         if (foundAccommodation != null) {
