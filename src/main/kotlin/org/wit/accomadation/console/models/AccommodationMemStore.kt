@@ -72,6 +72,10 @@ class AccommodationMemStore : AccommodationStore {
         var foundAccommodation: AccommodationModel? = accommodations.find { p -> p.id == id }
         return foundAccommodation
     }
+    override fun findPrice (price: Int) : AccommodationModel? {
+        var foundAccommodation: AccommodationModel? = accommodations.find { p -> p.price == price }
+        return foundAccommodation
+    }
 
     override fun create(accommodation: AccommodationModel) {
         accommodation.id = getId()

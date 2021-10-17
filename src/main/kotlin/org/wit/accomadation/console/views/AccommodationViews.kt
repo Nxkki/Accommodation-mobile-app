@@ -20,6 +20,7 @@ class AccommodationView {
         println(" 3. List All Accommodations")
         println(" 4. Search Accommodations")
         println(" 5. Delete Accommodations")
+        println(" 6. Price search Accommodations")
         println("-1. Exit")
         println()
         print("Enter Option : ")
@@ -153,4 +154,15 @@ class AccommodationView {
         return searchId
     }
 
+    fun getPrice(): Int {
+        var strPrice: String? // String to hold user input
+        var searchPrice: Int // Long to hold converted id
+        print("Enter Exact Price:")
+        strPrice = readLine()!!
+        searchPrice = if (strPrice.toIntOrNull() != null && !strPrice.isEmpty())
+            strPrice.toInt()
+        else
+            -9
+        return searchPrice
+    }
 }

@@ -23,9 +23,11 @@ val listType = object : TypeToken<java.util.ArrayList<AccommodationModel>>() {}.
 interface AccommodationStore {
     fun findAll(): List<AccommodationModel>
     fun findOne(id: Long): AccommodationModel?
+    fun findPrice(price: Int) : AccommodationModel?
     fun create(accommodation: AccommodationModel)
     fun update(accommodation: AccommodationModel)
     fun delete(accommodation: AccommodationModel)
+
 }
 fun generateRandomId(): Long {
     return Random().nextLong()
@@ -47,6 +49,11 @@ class AccommodationJSONStore : AccommodationStore {
 
     override fun findOne(id: Long) : AccommodationModel? {
         var foundAccommodation: AccommodationModel? = accommodations.find { p -> p.id == id }
+        return foundAccommodation
+    }
+
+    override fun findPrice (price: Int) : AccommodationModel? {
+        var foundAccommodation: AccommodationModel? = accommodations.find { p -> p.price == price }
         return foundAccommodation
     }
 

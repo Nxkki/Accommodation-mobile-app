@@ -31,6 +31,7 @@ class AccommodationController {
                 3 -> list()
                 4 -> search()
                 5 -> delete()
+                6 -> searchPrice()
                 -99 -> dummyData()
                 -1 -> println("Exiting App")
                 else -> println("Invalid Option")
@@ -105,13 +106,20 @@ class AccommodationController {
         val aAccommodation = search(accommodationView.getId())!!
         accommodationView.showAccommodation(aAccommodation)
     }
-
+    fun searchPrice() {
+        val aAccommodation = searchPrice(accommodationView.getPrice())!!
+        accommodationView.showAccommodation(aAccommodation)
+    }
 
     fun search(id: Long) : AccommodationModel? {
         var foundAccommodation = accommodations.findOne(id)
         return foundAccommodation
     }
 
+    fun searchPrice(price: Int) : AccommodationModel? {
+        var foundAccommodation = accommodations.findPrice(price)
+        return foundAccommodation
+    }
     fun dummyData() {
         accommodations.create(AccommodationModel(1, 300, "Templars Hall", "two story house", "4"))
         accommodations.create(AccommodationModel(2, 500, "Railway Square", "apartmnets", "2"))
