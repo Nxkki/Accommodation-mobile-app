@@ -1,16 +1,9 @@
 [
   {
-    "id": 0,
-    "price": 700,
-    "location": "moon road",
-    "type": "semi-detached ",
-    "rooms": "5 rooms"
-  },
-  {
-    "id": 1,
-    "price": 300,
-    "location": "railway market",
-    "type": "apartments",
-    "rooms": "1 room"
+    "id": -3287008626299547183,
+    "price": 200,
+    "location": "StringProperty [bean: tornadofx.ViewModel@378ae0c7, value: stool rd]",
+    "type": "StringProperty [bean: tornadofx.ViewModel@378ae0c7, value: bunglow]",
+    "rooms": "StringProperty [bean: tornadofx.ViewModel@378ae0c7, value: 2]"
   }
 ]

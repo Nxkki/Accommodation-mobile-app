@@ -1,11 +1,9 @@
-package org.wit.accommodation.console.views
+package org.wit.accommodations.console.views
 
 
-//import org.wit.accommodation.console.main.accommodations
-import org.wit.accommodation.console.models.AccommodationJSONStore
-import org.wit.accommodation.console.models.AccommodationMemStore
-import org.wit.accommodation.console.models.AccommodationModel
-import org.wit.accommodation.console.models.AccommodationStore
+//import org.wit.accommodations.console.main.accommodations
+import org.wit.accommodations.console.models.AccommodationJSONStore
+import org.wit.accommodations.console.models.AccommodationModel
 
 class AccommodationView {
 
@@ -58,46 +56,46 @@ class AccommodationView {
         print("Enter a Rooms : ")
         accommodation.rooms = readLine()!!
 //        print("Enter a Title : ")
-//        accommodation.title = readLine()!!
+//        accommodations.title = readLine()!!
 //        print("Enter a Description : ")
-//        accommodation.description = readLine()!!
+//        accommodations.description = readLine()!!
 
-//        return accommodation.title.isNotEmpty() && accommodation.description.isNotEmpty()
+//        return accommodations.title.isNotEmpty() && accommodations.description.isNotEmpty()
         return accommodation.price != null && accommodation.location.isNotEmpty() && accommodation.type.isNotEmpty() && accommodation.rooms.isNotEmpty()
 
     }
 
     fun deleteAccommodationData(accommodation: AccommodationModel): Boolean {
         if (accommodation != null) {
-//            if ( accommodation.price != 0 && ! accommodation.location.isNullOrEmpty() && ! accommodation.type.isNullOrEmpty() && ! accommodation.rooms.isNullOrEmpty()) {
+//            if ( accommodations.price != 0 && ! accommodations.location.isNullOrEmpty() && ! accommodations.type.isNullOrEmpty() && ! accommodations.rooms.isNullOrEmpty()) {
 //
-//            accommodation == null
+//            accommodations == null
                 return true
 //            }
         } else return false
     }
 
 
-    //        accommodation.findOne(accommodation)
+    //        accommodations.findOne(accommodations)
 //
-//       accommodation.accommodations.remove(accommodation.accommodations.removeAt())
-//        if (accommodation != null){
+//       accommodations.accommodations.remove(accommodations.accommodations.removeAt())
+//        if (accommodations != null){
 //
-//            deleteAccommodationData(accommodation)
+//            deleteAccommodationData(accommodations)
 //        }
 
 //        var index : Int
-//        print("Enter the index of the accommodation to delete ==>")
+//        print("Enter the index of the accommodations to delete ==>")
 //        index = Integer.valueOf(readLine())
 //
-//        if (accommodation != null) {
+//        if (accommodations != null) {
 //
-//            accommodation.
+//            accommodations.
 //        }
 ////        if (index < 0) {
 ////
-////        } else if (accommodation.id < accommodation) {
-////            accommodation.remove(accommodation.id);
+////        } else if (accommodations.id < accommodations) {
+////            accommodations.remove(accommodations.id);
 ////            return true;
 ////        } else {
 ////            return false;
@@ -115,9 +113,9 @@ class AccommodationView {
         var tempRoom: String?
 
         if (accommodation != null) {
-//            print("Enter a new Title for [ " + accommodation.title + " ] : ")
+//            print("Enter a new Title for [ " + accommodations.title + " ] : ")
 //            tempTitle = readLine()!!
-//            print("Enter a new Description for [ " + accommodation.description + " ] : ")
+//            print("Enter a new Description for [ " + accommodations.description + " ] : ")
 //            tempDescription = readLine()!!
             print("Enter a new price for [ " + accommodation.price + " ] : ")
             tempPrice = Integer.valueOf(readLine())
@@ -130,8 +128,8 @@ class AccommodationView {
 
             if (tempPrice != 0 && !tempLocation.isNullOrEmpty() && !tempType.isNullOrEmpty() && !tempRoom.isNullOrEmpty()) {
 //            if (!tempTitle.isNullOrEmpty() && !tempDescription.isNullOrEmpty()) {
-//                accommodation.title = tempTitle
-//                accommodation.description = tempDescription
+//                accommodations.title = tempTitle
+//                accommodations.description = tempDescription
                 accommodation.price = tempPrice
                 accommodation.location = tempLocation
                 accommodation.type = tempType

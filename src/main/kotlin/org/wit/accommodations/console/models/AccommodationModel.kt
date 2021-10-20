@@ -1,4 +1,4 @@
-package org.wit.accommodation.console.models
+package org.wit.accommodations.console.models
 //
 //data class AccommodationModel(var id: Long = 0,
 //                            var title: String = "",

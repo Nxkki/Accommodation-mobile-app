@@ -1,4 +1,4 @@
-package org.wit.accommodation.console.helpers
+package org.wit.accommodations.console.helpers
 
 import mu.KotlinLogging
 import java.io.*

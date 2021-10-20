@@ -1,10 +1,9 @@
-package org.wit.accommodation.console.controllers
+package org.wit.accommodations.console.controllers
 
 import mu.KotlinLogging
-import org.wit.accommodation.console.models.AccommodationJSONStore
-import org.wit.accommodation.console.models.AccommodationMemStore
-import org.wit.accommodation.console.models.AccommodationModel
-import org.wit.accommodation.console.views.AccommodationView
+import org.wit.accommodations.console.models.AccommodationJSONStore
+import org.wit.accommodations.console.models.AccommodationModel
+import org.wit.accommodations.console.views.AccommodationView
 
 class AccommodationController {
 

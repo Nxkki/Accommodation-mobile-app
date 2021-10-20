@@ -1,17 +1,11 @@
 
-package org.wit.accommodation.console.models
+package org.wit.accommodations.console.models
 
-import org.wit.accommodation.console.helpers.*
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
-import com.google.gson.reflect.TypeToken
 import mu.KotlinLogging
 //import org.wit.placemark.console.helpers.exists
 //import org.wit.placemark.console.helpers.read
 //import org.wit.placemark.console.helpers.write
-//import org.wit.accommodation.console.*
-
-import java.util.*
+//import org.wit.accommodations.console.*
 
 private val logger = KotlinLogging.logger {}
 
@@ -57,26 +51,26 @@ interface AccommodationStore {
 //        return foundAccommodation
 //    }
 //
-//    override fun create(accommodation: AccommodationModel) {
-//        accommodation.id = generateRandomId()
-//        accommodations.add(accommodation)
+//    override fun create(accommodations: AccommodationModel) {
+//        accommodations.id = generateRandomId()
+//        accommodations.add(accommodations)
 //        serialize()
 //    }
 //
-//    override fun delete(accommodation: AccommodationModel) {
-//        var foundAccommodation = findOne(accommodation.id!!)
+//    override fun delete(accommodations: AccommodationModel) {
+//        var foundAccommodation = findOne(accommodations.id!!)
 //        if (foundAccommodation != null) {
 //
-//            accommodations.remove(accommodation)
+//            accommodations.remove(accommodations)
 //        }
 //    }
-//    override fun update(accommodation: AccommodationModel) {
-//        var foundAccommodation = findOne(accommodation.id!!)
+//    override fun update(accommodations: AccommodationModel) {
+//        var foundAccommodation = findOne(accommodations.id!!)
 //        if (foundAccommodation != null) {
-//            foundAccommodation.price = accommodation.price
-//            foundAccommodation.location = accommodation.location
-//            foundAccommodation.type = accommodation.type
-//            foundAccommodation.rooms = accommodation.rooms
+//            foundAccommodation.price = accommodations.price
+//            foundAccommodation.location = accommodations.location
+//            foundAccommodation.type = accommodations.type
+//            foundAccommodation.rooms = accommodations.rooms
 //        }
 //        serialize()
 //    }

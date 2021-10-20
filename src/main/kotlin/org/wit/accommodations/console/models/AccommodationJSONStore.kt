@@ -1,14 +1,14 @@
-package org.wit.accommodation.console.models
+package org.wit.accommodations.console.models
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 import mu.KotlinLogging
-//import org.wit.accommodation.console.helpers.exists
-//import org.wit.accommodation.console.helpers.read
-//import org.wit.accommodation.console.helpers.write
+//import org.wit.accommodations.console.helpers.exists
+//import org.wit.accommodations.console.helpers.read
+//import org.wit.accommodations.console.helpers.write
 
-import org.wit.accommodation.console.helpers.*
+import org.wit.accommodations.console.helpers.*
 import java.util.*
 
 private val logger = KotlinLogging.logger {}

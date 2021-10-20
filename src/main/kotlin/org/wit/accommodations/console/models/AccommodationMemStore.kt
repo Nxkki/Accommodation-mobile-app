@@ -1,5 +1,5 @@
 //import mu.KotlinLogging
-//import org.wit.accommodation.console.models.AccommodationModel
+//import org.wit.accommodations.console.models.AccommodationModel
 //
 //private val logger = KotlinLogging.logger {}
 //var lastId = 0L
@@ -21,17 +21,17 @@
 //        return foundAccommodation
 //    }
 //
-//    override fun create(accommodation: AccommodationModel) {
-//        accommodation.id = getId()
-//        accommodations.add(accommodation)
+//    override fun create(accommodations: AccommodationModel) {
+//        accommodations.id = getId()
+//        accommodations.add(accommodations)
 //        logAll()
 //    }
 //
-//    override fun update(accommodation: AccommodationModel) {
-//        var foundAccommodation = findOne(accommodation.id!!)
+//    override fun update(accommodations: AccommodationModel) {
+//        var foundAccommodation = findOne(accommodations.id!!)
 //        if (foundAccommodation != null) {
-//            foundAccommodation.title = accommodation.title
-//            foundAccommodation.description = accommodation.description
+//            foundAccommodation.title = accommodations.title
+//            foundAccommodation.description = accommodations.description
 //        }
 //    }
 //
@@ -42,15 +42,15 @@
 //
 //
 
-//package org.wit.accommodation.console.models
+//package org.wit.accommodations.console.models
 //
 //class AccommodationMemStore {
 //
 //
 //}
-package org.wit.accommodation.console.models
+package org.wit.accommodations.console.models
 import mu.KotlinLogging
-//import org.wit.accommodation.console.models.AccommodationStore
+//import org.wit.accommodations.console.models.AccommodationStore
 //import AccommodationStore
 
 private val logger = KotlinLogging.logger {}

@@ -1,5 +1,5 @@
-package org.wit.accommodation.console.main
-import org.wit.accommodation.console.controllers.AccommodationController
+package org.wit.accommodations.console.main
+import org.wit.accommodations.console.controllers.AccommodationController
 fun main(args: Array<String>) {
     val controller = AccommodationController().start()
 }
@@ -10,17 +10,17 @@ fun main(args: Array<String>) {
 //refuess to delete some
 
 //-----------------------------
-//package org.wit.accommodation.console.main
+//package org.wit.accommodations.console.main
 //
 //import mu.KotlinLogging
-//import org.wit.accommodation.console.models.AccommodationModel
-//import org.wit.accommodation.console.models.AccommodationMemStore
-//import org.wit.accommodation.console.views.AccommodationView
+//import org.wit.accommodations.console.models.AccommodationModel
+//import org.wit.accommodations.console.models.AccommodationMemStore
+//import org.wit.accommodations.console.views.AccommodationView
 //
-////import org.wit.accommodation.console.models
-////import org.wit.accommodation.console.models.AccommodationMemStore
-////import org.wit.accommodation.console.models.AccommodationMemStore.kt
-////import org.wit.accommodation.console.models.AccommodationModel
+////import org.wit.accommodations.console.models
+////import org.wit.accommodations.console.models.AccommodationMemStore
+////import org.wit.accommodations.console.models.AccommodationMemStore.kt
+////import org.wit.accommodations.console.models.AccommodationModel
 //
 //private val logger = KotlinLogging.logger {}
 //
