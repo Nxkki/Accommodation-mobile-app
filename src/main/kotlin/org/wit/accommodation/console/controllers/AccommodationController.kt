@@ -66,12 +66,12 @@ class AccommodationController {
 
 //            if(accommodationView.deleteAccommodationData(aAccommodation)) {
 //                accommodationView.deleteAccommodationData(aAccommodation)
-            if (accommodationView.deleteAccommodationData(aAccommodation)) {
+//            if (accommodationView.deleteAccommodationData(aAccommodation)) {
                 accommodations.delete(aAccommodation)
                 accommodationView.showAccommodation(aAccommodation)
 
                 logger.info("Accommodation  Deleted...")
-            }
+
         }
         else
             logger.info("Accommodation Not Deleted...")
@@ -96,7 +96,7 @@ class AccommodationController {
                 logger.info("Accommodation Updated : [ $aAccommodation ]")
             }
             else
-                logger.info("Accommodation Not Updated")
+                logger.info("Accommodationa Not Updated")
         }
         else
             println("Accommodation Not Updated...")

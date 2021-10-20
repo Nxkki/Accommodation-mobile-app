@@ -1,37 +1,16 @@
 [
   {
-    "id": -1645318405472022173,
-    "price": 2,
-    "location": "w",
-    "type": "ws",
-    "rooms": "s"
+    "id": 0,
+    "price": 700,
+    "location": "moon road",
+    "type": "semi-detached ",
+    "rooms": "5 rooms"
   },
   {
-    "id": 1961953117309211064,
-    "price": 334,
-    "location": "fre",
-    "type": "rf",
-    "rooms": "rff"
-  },
-  {
-    "id": 7255039030979603099,
-    "price": 22,
-    "location": "tkyr",
-    "type": "utut",
-    "rooms": "utdy"
-  },
-  {
-    "id": -5757643223167080408,
-    "price": 11,
-    "location": "ww",
-    "type": "wdw",
-    "rooms": "qwd"
-  },
-  {
-    "id": 6182440271640798222,
-    "price": 777,
-    "location": "777",
-    "type": "uuii",
-    "rooms": "jjkj"
+    "id": 1,
+    "price": 300,
+    "location": "railway market",
+    "type": "apartments",
+    "rooms": "1 room"
   }
 ]
