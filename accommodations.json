@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": 2343832344034126314,
+    "price": 200,
+    "location": "mooncoin",
+    "type": "house",
+    "rooms": "1 room"
+  },
+  {
+    "id": 1121313773671535753,
+    "price": 200,
+    "location": "sha",
+    "type": "bunglow",
+    "rooms": "1"
+  },
+  {
+    "id": -7976561682536037892,
+    "price": 300,
+    "location": "follloe",
+    "type": "studio",
+    "rooms": "2"
+  }
+]

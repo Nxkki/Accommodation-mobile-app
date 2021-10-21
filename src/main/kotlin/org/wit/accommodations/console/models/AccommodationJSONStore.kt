@@ -41,6 +41,11 @@ class AccommodationJSONStore : AccommodationStore {
         return accommodations
     }
 
+     fun filteringPrice (price: Int): List<AccommodationModel> {
+        return accommodations.filter { p -> p.price == price }
+
+    }
+
     override fun findOne(id: Long) : AccommodationModel? {
         var foundAccommodation: AccommodationModel? = accommodations.find { c -> c.id == id }
         return foundAccommodation

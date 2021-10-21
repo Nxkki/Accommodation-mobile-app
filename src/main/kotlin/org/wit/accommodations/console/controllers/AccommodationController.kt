@@ -9,17 +9,19 @@ class AccommodationController {
 
 //   val accommodations = AccommodationMemStore()
     val accommodations = AccommodationJSONStore()
-
+    val red = "\u001b[37m"
+    val reset = "\u001b[0m"
     val accommodationView = AccommodationView()
 
     val logger = KotlinLogging.logger {}
 
     init {
-        logger.info { "Launching Accommodation Console App" }
-        println("Accommodation Kotlin App Version 1.0")
+        logger.info { "Launching Accommodation Console App"}
+        println(red +"Accommodation Kotlin App Version 1.0" + reset)
     }
 
     fun start() {
+
         var input: Int
 
         do {
@@ -31,6 +33,7 @@ class AccommodationController {
                 4 -> search()
                 5 -> delete()
                 6 -> searchPrice()
+                7 -> filteringPrice()
                 -99 -> dummyData()
                 -1 -> println("Exiting App")
                 else -> println("Invalid Option")
@@ -110,15 +113,39 @@ class AccommodationController {
         accommodationView.showAccommodation(aAccommodation)
     }
 
+    fun filteringPrice() {
+        val Accommodations = filterPrice(accommodationView.getFilterPrice())!!
+        return accommodationView.showAccommodation(Accommodations)
+    }
+
     fun search(id: Long) : AccommodationModel? {
         var foundAccommodation = accommodations.findOne(id)
         return foundAccommodation
     }
+//fun filterPrice(price: Int): List<AccommodationModel> {
+//
+//   var foundAccommodation = accommodations.filteringPrice(price)
+//    return foundAccommodation
+//}
+
+
+//    fun filterPrice() {
+//
+//    val aAccommodations =
+//
+//}
+
 
     fun searchPrice(price: Int) : AccommodationModel? {
         var foundAccommodation = accommodations.findPrice(price)
         return foundAccommodation
     }
+
+    fun filterPrice(price: Int): List<AccommodationModel> {
+
+   var foundAccommodation = accommodations.filteringPrice(price)
+    return foundAccommodation
+}
     fun dummyData() {
         accommodations.create(AccommodationModel(1, 300, "Templars Hall", "two story house", "4"))
         accommodations.create(AccommodationModel(2, 500, "Railway Square", "apartmnets", "2"))

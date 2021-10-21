@@ -19,6 +19,7 @@ class AccommodationView {
         println(" 4. Search Accommodations")
         println(" 5. Delete Accommodations")
         println(" 6. Price search Accommodations")
+        println(" 7 Price filter Accommodations")
         println("-1. Exit")
         println()
         print("Enter Option : ")
@@ -70,7 +71,7 @@ class AccommodationView {
 //            if ( accommodations.price != 0 && ! accommodations.location.isNullOrEmpty() && ! accommodations.type.isNullOrEmpty() && ! accommodations.rooms.isNullOrEmpty()) {
 //
 //            accommodations == null
-                return true
+            return true
 //            }
         } else return false
     }
@@ -162,5 +163,24 @@ class AccommodationView {
         else
             -9
         return searchPrice
+    }
+
+    fun getFilterPrice(): Int {
+        var strFilterPrice: String? // String to hold user input
+        var searchFilterPrice: Int // Long to hold converted id
+        print("Enter Exact Price:")
+        strFilterPrice = readLine()!!
+        searchFilterPrice = if (strFilterPrice.toIntOrNull() != null && !strFilterPrice.isEmpty())
+            strFilterPrice.toInt()
+        else
+            -9
+        return searchFilterPrice
+    }
+
+    fun showAccommodation(accommodation: List<AccommodationModel>) {
+        if (accommodation != null)
+            println("Accommodation Details [ $accommodation ]")
+        else
+            println("Accommodation Not Found...")
     }
 }
