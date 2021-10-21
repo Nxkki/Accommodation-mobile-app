@@ -42,9 +42,9 @@ class AddAccommodationScreen : View("Add Accommodation") {
                     runAsyncWithProgress {
                         accommodationUIController.add(
                             _price.value.toInt(),
-                            _location.toString(),
-                            _type.toString(),
-                            _rooms.toString()
+                            _location.getValue(),
+                            _type.getValue(),
+                            _rooms.getValue()
                         )
 
 

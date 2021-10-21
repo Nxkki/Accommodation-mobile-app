@@ -7,7 +7,7 @@ import org.wit.accommodations.console.views.AccommodationView
 
 class AccommodationController {
 
-//   val accommodations = AccommodationMemStore()
+
     val accommodations = AccommodationJSONStore()
     val red = "\u001b[37m"
     val reset = "\u001b[0m"
@@ -66,9 +66,7 @@ class AccommodationController {
 
         if(aAccommodation != null) {
 
-//            if(accommodationView.deleteAccommodationData(aAccommodation)) {
-//                accommodationView.deleteAccommodationData(aAccommodation)
-//            if (accommodationView.deleteAccommodationData(aAccommodation)) {
+
                 accommodations.delete(aAccommodation)
                 accommodationView.showAccommodation(aAccommodation)
 
@@ -77,12 +75,8 @@ class AccommodationController {
         }
         else
             logger.info("Accommodation Not Deleted...")
-//    }
-//        else
-//        println("Accommodation Not Deleted...")
+
     }
-
-
 
 
     fun update() {
@@ -122,19 +116,6 @@ class AccommodationController {
         var foundAccommodation = accommodations.findOne(id)
         return foundAccommodation
     }
-//fun filterPrice(price: Int): List<AccommodationModel> {
-//
-//   var foundAccommodation = accommodations.filteringPrice(price)
-//    return foundAccommodation
-//}
-
-
-//    fun filterPrice() {
-//
-//    val aAccommodations =
-//
-//}
-
 
     fun searchPrice(price: Int) : AccommodationModel? {
         var foundAccommodation = accommodations.findPrice(price)

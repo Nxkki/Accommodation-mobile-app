@@ -1,7 +1,6 @@
 package org.wit.accommodations.console.views
 
 
-//import org.wit.accommodations.console.main.accommodations
 import org.wit.accommodations.console.models.AccommodationJSONStore
 import org.wit.accommodations.console.models.AccommodationModel
 
@@ -56,57 +55,14 @@ class AccommodationView {
         accommodation.type = readLine()!!
         print("Enter a Rooms : ")
         accommodation.rooms = readLine()!!
-//        print("Enter a Title : ")
-//        accommodations.title = readLine()!!
-//        print("Enter a Description : ")
-//        accommodations.description = readLine()!!
 
-//        return accommodations.title.isNotEmpty() && accommodations.description.isNotEmpty()
         return accommodation.price != null && accommodation.location.isNotEmpty() && accommodation.type.isNotEmpty() && accommodation.rooms.isNotEmpty()
 
     }
 
-    fun deleteAccommodationData(accommodation: AccommodationModel): Boolean {
-        if (accommodation != null) {
-//            if ( accommodations.price != 0 && ! accommodations.location.isNullOrEmpty() && ! accommodations.type.isNullOrEmpty() && ! accommodations.rooms.isNullOrEmpty()) {
-//
-//            accommodations == null
-            return true
-//            }
-        } else return false
-    }
-
-
-    //        accommodations.findOne(accommodations)
-//
-//       accommodations.accommodations.remove(accommodations.accommodations.removeAt())
-//        if (accommodations != null){
-//
-//            deleteAccommodationData(accommodations)
-//        }
-
-//        var index : Int
-//        print("Enter the index of the accommodations to delete ==>")
-//        index = Integer.valueOf(readLine())
-//
-//        if (accommodations != null) {
-//
-//            accommodations.
-//        }
-////        if (index < 0) {
-////
-////        } else if (accommodations.id < accommodations) {
-////            accommodations.remove(accommodations.id);
-////            return true;
-////        } else {
-////            return false;
-////        }
-
-
     fun updateAccommodationData(accommodation: AccommodationModel): Boolean {
 
-//        var tempTitle: String?
-//        var tempDescription: String?
+
 
         var tempPrice: Int
         var tempLocation: String?
@@ -114,10 +70,7 @@ class AccommodationView {
         var tempRoom: String?
 
         if (accommodation != null) {
-//            print("Enter a new Title for [ " + accommodations.title + " ] : ")
-//            tempTitle = readLine()!!
-//            print("Enter a new Description for [ " + accommodations.description + " ] : ")
-//            tempDescription = readLine()!!
+
             print("Enter a new price for [ " + accommodation.price + " ] : ")
             tempPrice = Integer.valueOf(readLine())
             print("Enter a new lOCATION for [ " + accommodation.location + " ] : ")
@@ -128,9 +81,6 @@ class AccommodationView {
             tempRoom = readLine()!!
 
             if (tempPrice != 0 && !tempLocation.isNullOrEmpty() && !tempType.isNullOrEmpty() && !tempRoom.isNullOrEmpty()) {
-//            if (!tempTitle.isNullOrEmpty() && !tempDescription.isNullOrEmpty()) {
-//                accommodations.title = tempTitle
-//                accommodations.description = tempDescription
                 accommodation.price = tempPrice
                 accommodation.location = tempLocation
                 accommodation.type = tempType
@@ -184,3 +134,4 @@ class AccommodationView {
             println("Accommodation Not Found...")
     }
 }
+

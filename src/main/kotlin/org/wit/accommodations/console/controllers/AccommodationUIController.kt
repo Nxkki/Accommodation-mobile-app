@@ -1,7 +1,3 @@
-//package org.wit.accommodations.console.controllers
-//
-//class AccommodationUIController {
-//}
 
 package org.wit.accommodations.console.controllers
 
@@ -32,12 +28,6 @@ class AccommodationUIController : Controller() {
     }
 
     fun delete(accommodation : AccommodationModel){
-
-//        val aaccommodations.findByIndex(index)
-//        var aAccommodation = AccommodationModel(price = _price, location = _location,type = _type, rooms = _rooms)
-//accommodations.delete(accommodation = )
-//AccommodationModel.
-//        accommodations.delete(accommodations)
 
         accommodations.delete(accommodation)
 
