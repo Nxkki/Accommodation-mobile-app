@@ -36,6 +36,17 @@ class MenuScreen : View("Accommodation Main Menu") {
                 }
             }
             text("")
+            button("Delete Accommodations") {
+
+                isDefaultButton = true
+                useMaxWidth = true
+                action {
+                    runAsyncWithProgress {
+                        accommodationUIController.loadDeleteScreen()
+                    }
+                }
+            }
+            text("")
             button("Exit") {
 
                 isDefaultButton = true

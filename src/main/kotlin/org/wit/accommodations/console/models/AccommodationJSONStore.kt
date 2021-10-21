@@ -46,6 +46,10 @@ class AccommodationJSONStore : AccommodationStore {
         return foundAccommodation
     }
 
+     fun findByIndex(index: Int) : AccommodationModel? {
+        var foundAccommodation: AccommodationModel? = accommodations.get(index)
+        return foundAccommodation
+    }
     override fun create(accommodation: AccommodationModel) {
         accommodation.id = generateRandomId()
         accommodations.add(accommodation)
