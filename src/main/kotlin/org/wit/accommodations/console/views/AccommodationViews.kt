@@ -5,21 +5,30 @@ import org.wit.accommodations.console.models.AccommodationJSONStore
 import org.wit.accommodations.console.models.AccommodationModel
 
 class AccommodationView {
+    val yellow = "\u001b[33m"
+    val blue = "\u001b[34m"
+    val green = "\u001b[32m"
+    val reset = "\u001b[0m"
 
     fun menu(): Int {
 
         var option: Int
         var input: String?
 
-        println("MAIN MENU")
-        println(" 1. Add Accommodation")
-        println(" 2. Update Accommodation")
-        println(" 3. List All Accommodations")
-        println(" 4. Search Accommodations")
-        println(" 5. Delete Accommodations")
-        println(" 6. Price search Accommodations")
-        println(" 7 Price filter Accommodations")
-        println("-1. Exit")
+        println(yellow + "----------------------------------------------------------------------" + reset)
+        println( yellow +"MAIN MENU" + reset)
+        println(yellow + "----------------------------------------------------------------------" + reset)
+
+        println(blue + " 1. Add Accommodation"+ reset)
+        println(blue +" 2. Update Accommodation" + reset)
+        println(blue +" 3. List All Accommodations"+ reset)
+        println(blue +" 4. Search Accommodations"+ reset)
+        println(blue +" 5. Delete Accommodations" + reset)
+        println(blue +" 6. Price search Accommodations"+ reset)
+        println(blue +" 7 Price filter Accommodations" + reset)
+        println(blue +"-1. Exit")
+        println(yellow + "----------------------------------------------------------------------" + reset)
+
         println()
         print("Enter Option : ")
         input = readLine()!!

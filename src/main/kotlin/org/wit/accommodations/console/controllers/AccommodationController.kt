@@ -9,7 +9,7 @@ class AccommodationController {
 
 
     val accommodations = AccommodationJSONStore()
-    val red = "\u001b[37m"
+    val red = "\u001b[31m"
     val reset = "\u001b[0m"
     val accommodationView = AccommodationView()
 
@@ -35,8 +35,8 @@ class AccommodationController {
                 6 -> searchPrice()
                 7 -> filteringPrice()
                 -99 -> dummyData()
-                -1 -> println("Exiting App")
-                else -> println("Invalid Option")
+                -1 -> println(red + "Exiting App"+ reset)
+                else -> println(red + "Invalid Option" + reset)
             }
             println()
         } while (input != -1)
