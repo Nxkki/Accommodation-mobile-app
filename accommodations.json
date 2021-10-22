@@ -16,36 +16,29 @@
   {
     "id": -7976561682536037892,
     "price": 300,
-    "location": "follloe",
+    "location": "folly mount",
     "type": "studio",
     "rooms": "2"
   },
   {
-    "id": -5542133095500002228,
-    "price": 600,
-    "location": "",
-    "type": "StringProperty [bean: tornadofx.ViewModel@701c373f, value: apartments]",
-    "rooms": "StringProperty [bean: tornadofx.ViewModel@701c373f, value: 1]"
-  },
-  {
-    "id": -7028982117069219271,
-    "price": 500,
-    "location": "",
-    "type": "StringProperty [bean: tornadofx.ViewModel@1d170f65, value: house]",
-    "rooms": "StringProperty [bean: tornadofx.ViewModel@1d170f65, value: 1]"
-  },
-  {
-    "id": -5947372150684465603,
-    "price": 300,
-    "location": "city\t",
-    "type": "StringProperty [bean: tornadofx.ViewModel@24c512e2, value: studio]",
-    "rooms": "StringProperty [bean: tornadofx.ViewModel@24c512e2, value: 1]"
-  },
-  {
-    "id": -8955878910412732031,
-    "price": 1000,
-    "location": "kilkenny\t",
+    "id": -4820145917538543408,
+    "price": 1001,
+    "location": "waterford",
     "type": "house",
-    "rooms": "3"
+    "rooms": "2"
+  },
+  {
+    "id": -7989338311989246302,
+    "price": 2000,
+    "location": "cork",
+    "type": "house",
+    "rooms": "2"
+  },
+  {
+    "id": 650883229603264924,
+    "price": 2000,
+    "location": "archers field",
+    "type": "bunglow",
+    "rooms": "6"
   }
 ]
