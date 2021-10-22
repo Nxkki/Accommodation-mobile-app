@@ -1,3 +1,6 @@
+//MenuScreen displays buttons on TornadoFX screen
+//loads functions from accommodationUIController
+
 package org.wit.accommodations.console.views
 
 import javafx.application.Platform

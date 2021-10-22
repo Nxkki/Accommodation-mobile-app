@@ -1,4 +1,8 @@
-package org.wit.accommodations.console.helpers
+
+//FileHelper works on persistence by storing the accommodations in a basic file.
+
+
+ package org.wit.accommodations.console.helpers
 
 import mu.KotlinLogging
 import java.io.*

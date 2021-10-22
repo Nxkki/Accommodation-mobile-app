@@ -1,4 +1,5 @@
-
+//AccommodationStore declares what functionaltiy AccommodationStore will implement in other classes
+//AccommodationStore is an interface
 package org.wit.accommodations.console.models
 
 import mu.KotlinLogging

@@ -1,3 +1,6 @@
+//AccommodationModel stores accommodation objects and manages user data
+//AccommodationModel is a data class
+
 package org.wit.accommodations.console.models
 
 

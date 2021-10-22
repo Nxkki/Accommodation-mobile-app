@@ -1,3 +1,7 @@
+//AccommodationView displays options to the user in a Menu format
+//AccommodationView contains listAccommodations, showAccommodation, addAccommodationData, updateAccommodationData, getId, getPrice and getFilterPrice
+//user input required for add,delete and update functions is obtained here
+//AccommodationView is 'User Facing'
 package org.wit.accommodations.console.views
 
 

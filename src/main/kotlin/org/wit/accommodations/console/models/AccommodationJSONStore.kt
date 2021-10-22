@@ -1,3 +1,6 @@
+//AccommodationJSONStore is also an implenation of AccommodationStore
+// contains the 4 overridden functions created in AccommodationStore
+//AccommodationJSONStore allows for accommodation to be stored in a JSON file using private functions serialize(), deserialize()
 package org.wit.accommodations.console.models
 
 import com.google.gson.Gson
@@ -82,11 +85,13 @@ class AccommodationJSONStore : AccommodationStore {
         accommodations.forEach { logger.info("${it}") }
     }
 
+    //creates string from accommodation that is then written as a list to a Json file
     private fun serialize() {
         val jsonString = gsonBuilder.toJson(accommodations, listType)
         write(JSON_FILE, jsonString)
     }
 
+    //lists accommodations from the Json file
     private fun deserialize() {
         val jsonString = read(JSON_FILE)
         accommodations = Gson().fromJson(jsonString, listType)

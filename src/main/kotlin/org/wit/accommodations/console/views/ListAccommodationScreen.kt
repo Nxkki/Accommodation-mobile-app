@@ -1,7 +1,8 @@
+//ListAccommodationScreen uses TornadoFX tableView to list all accommodations created from accommmodation.json
+//Close button returns user to MenuScreen
 package org.wit.accommodations.console.views
 
 
-//import org.wit.accommodations.console.controllers.AccommodationUIController
 import org.wit.accommodations.console.models.AccommodationModel
 import org.wit.accommodations.console.controllers.AccommodationUIController
 import tornadofx.*

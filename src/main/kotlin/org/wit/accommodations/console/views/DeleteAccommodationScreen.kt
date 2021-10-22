@@ -1,3 +1,7 @@
+//DeleteAccommodationScreen displays accommodation using TornadoFXs tableView to list all accommodations created from accommodation.json
+//onUserSelect is used to allow user to select the accommodation they could like to delete and a double click it is deleted
+//the screen is then refreshed to display new list of accommodations
+//Close button returns user to MenuScreen
 package org.wit.accommodations.console.views
 
 import org.wit.accommodations.console.controllers.AccommodationUIController

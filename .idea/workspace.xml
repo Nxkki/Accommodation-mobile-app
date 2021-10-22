@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a697fcc7-1743-4fc2-bf15-96e079b8d36c" name="Default Changelist" comment="Accommodation-Console 8.0: Added Filtering to Console App">
+    <list default="true" id="a697fcc7-1743-4fc2-bf15-96e079b8d36c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accommodations.json" beforeDir="false" afterPath="$PROJECT_DIR$/accommodations.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationUIController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationUIController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/helpers/FileHelpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/helpers/FileHelpers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/MainApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/MainApp.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationJSONStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationJSONStore.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationMemStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationMemStore.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationStore.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AccommodationViews.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AccommodationViews.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AddAccommodationScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AddAccommodationScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/DeleteAccommodationScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/DeleteAccommodationScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/ListAccommodationScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/ListAccommodationScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/MenuScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/MenuScreen.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,19 +66,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AddAccommodationScreen.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AccommodationViews.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2012">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="51">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!block;n#menu#0;n#!!block;n#AccommodationView#0" />
+                <element signature="n#!!block;n#listAccommodations#0;n#!!block;n#AccommodationView#0" />
+                <element signature="n#!!block;n#showAccommodation#0;n#!!block;n#AccommodationView#0" />
+                <element signature="n#!!block;n#addAccommodationData#0;n#!!block;n#AccommodationView#0" />
+                <element signature="n#!!block;n#updateAccommodationData#0;n#!!block;n#AccommodationView#0" />
+                <element signature="n#!!block;n#getId#0;n#!!block;n#AccommodationView#0" />
+                <element signature="n#!!block;n#getPrice#0;n#!!block;n#AccommodationView#0" />
+                <element signature="n#!!block;n#getFilterPrice#0;n#!!block;n#AccommodationView#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,20 +87,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationUIController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-434">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationStore.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationMemStore.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationJSONStore.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1018">
+              <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/MainApp.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="96" selection-start-column="96" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/helpers/FileHelpers.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-end-line="2" />
               <folding>
-                <element signature="e#559#696#0" />
-                <element signature="n#!!block;n#start#0;n#!!block;n#AccommodationController#0" />
+                <element signature="e#79#296#0" expanded="true" />
                 <element signature="n#!!block;n#add#0;n#!!block;n#AccommodationController#0" />
                 <element signature="n#!!block;n#list#0;n#!!block;n#AccommodationController#0" />
                 <element signature="n#!!block;n#delete#0;n#!!block;n#AccommodationController#0" />
@@ -108,60 +175,6 @@
                 <element signature="n#!!block;n#filterPrice#0;n#!!block;n#AccommodationController#0" />
                 <element signature="n#!!block;n#dummyData#0;n#!!block;n#AccommodationController#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationMemStore.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationJSONStore.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationModel.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/MainApp.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationStore.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -209,17 +222,19 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodation/console/views/MenuScreen.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodation/console/views/AddAccommodationScreen.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/MenuScreen.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/ListAccommodationScreen.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/DeleteAccommodationScreen.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationJSONStore.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AddAccommodationScreen.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AccommodationViews.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationStore.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationModel.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationUIController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationStore.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationMemStore.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/MainApp.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/helpers/FileHelpers.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationUIController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AccommodationViews.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationJSONStore.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/MainApp.kt" />
       </list>
     </option>
   </component>
@@ -230,10 +245,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="675" />
-    <option name="y" value="-8" />
-    <option name="width" value="699" />
-    <option name="height" value="744" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -295,10 +308,88 @@
               <item name="wit" type="462c0819:PsiDirectoryNode" />
               <item name="accommodations" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Accommodation-Console-1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Accommodation-Console-1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="wit" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodations" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Accommodation-Console-1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Accommodation-Console-1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="wit" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodations" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Accommodation-Console-1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Accommodation-Console-1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="wit" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodations" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Accommodation-Console-1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Accommodation-Console-1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="wit" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodations" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Accommodation-Console-1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Accommodation-Console-1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="wit" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodations" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Accommodation-Console-1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Accommodation-Console-1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="wit" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodations" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Accommodation-Console-1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Accommodation-Console-1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,7 +421,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TornadoFX.MainApp">
+  <component name="RunManager" selected="Kotlin.org.wit.accommodations.console.main.MainKt (1)">
     <configuration name="org.wit.accommodations.console.main.MainKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="org.wit.accommodations.Accommodation-Console-1.0_.main" />
       <option name="VM_PARAMETERS" />
@@ -465,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1634825428477</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Accommodation-Console 9.0: Alternative Menu">
+      <created>1634866854972</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1634866854972</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26415000" />
+    <option name="totallyTimeSpent" value="30178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,10 +579,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="675" y="-8" width="699" height="744" extended-state="0" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04694836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4976452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -500,7 +598,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.79122543" visible="true" weight="0.33387887" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.79122543" visible="true" weight="0.049833886" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.20877458" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Build" order="13" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -565,7 +663,8 @@
     <MESSAGE value="Accommodation-Console 7.0: TornadoFX version of Accommodation Console" />
     <MESSAGE value="Accommodation-Console 7.1: TornadoFX version of Accommodation Console - Added a Delete Accommodation Screen" />
     <MESSAGE value="Accommodation-Console 8.0: Added Filtering to Console App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accommodation-Console 8.0: Added Filtering to Console App" />
+    <MESSAGE value="Accommodation-Console 9.0: Alternative Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accommodation-Console 9.0: Alternative Menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,8 +675,30 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AccommodationViews.kt</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationController.kt</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationController.kt</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -602,13 +723,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/et --hard HEAD@{7}">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/et --hard HEAD@{7}" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_301/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -618,22 +733,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/MenuScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="49" selection-end-column="27" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/ListAccommodationScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="6" column="18" selection-start-line="4" selection-start-column="7" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="1" column="41" lean-forward="true" selection-start-column="26" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/DeleteAccommodationScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="34">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="3" selection-end-column="41" />
           <folding>
             <element signature="e#46#204#0" expanded="true" />
           </folding>
@@ -642,74 +757,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AddAccommodationScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AccommodationViews.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2012">
+        <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationStore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationModel.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationMemStore.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="55">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationJSONStore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/MainApp.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/helpers/FileHelpers.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationUIController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-end-line="2" />
           <folding>
-            <element signature="e#559#696#0" />
-            <element signature="n#!!block;n#start#0;n#!!block;n#AccommodationController#0" />
+            <element signature="e#79#296#0" expanded="true" />
             <element signature="n#!!block;n#add#0;n#!!block;n#AccommodationController#0" />
             <element signature="n#!!block;n#list#0;n#!!block;n#AccommodationController#0" />
             <element signature="n#!!block;n#delete#0;n#!!block;n#AccommodationController#0" />
@@ -722,6 +808,51 @@
             <element signature="n#!!block;n#filterPrice#0;n#!!block;n#AccommodationController#0" />
             <element signature="n#!!block;n#dummyData#0;n#!!block;n#AccommodationController#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/controllers/AccommodationUIController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/views/AccommodationViews.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!block;n#menu#0;n#!!block;n#AccommodationView#0" />
+            <element signature="n#!!block;n#listAccommodations#0;n#!!block;n#AccommodationView#0" />
+            <element signature="n#!!block;n#showAccommodation#0;n#!!block;n#AccommodationView#0" />
+            <element signature="n#!!block;n#addAccommodationData#0;n#!!block;n#AccommodationView#0" />
+            <element signature="n#!!block;n#updateAccommodationData#0;n#!!block;n#AccommodationView#0" />
+            <element signature="n#!!block;n#getId#0;n#!!block;n#AccommodationView#0" />
+            <element signature="n#!!block;n#getPrice#0;n#!!block;n#AccommodationView#0" />
+            <element signature="n#!!block;n#getFilterPrice#0;n#!!block;n#AccommodationView#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/models/AccommodationJSONStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1018">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/accommodations/console/main/MainApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="96" selection-start-column="96" selection-end-column="96" />
         </state>
       </provider>
     </entry>

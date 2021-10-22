@@ -1,3 +1,5 @@
+//AccommodationController manages main functionality for the app
+//AccommodationController acts as a link between Model and View
 
 package org.wit.accommodations.console.controllers
 

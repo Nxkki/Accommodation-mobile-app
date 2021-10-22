@@ -1,7 +1,6 @@
-//package org.wit.accommodations.console.views
-//
-//class AddAccommodationScreen {
-//}
+//AddAccommodationScreen allows users to enter details tht are then used to create a new accommodation
+//new accommodation is stored in  accommodation.json
+//Close button returns user to MenuScreen
 
 package org.wit.accommodations.console.views
 
@@ -62,7 +61,7 @@ class AddAccommodationScreen : View("Add Accommodation") {
             }
 
 
-//        override fun onDock() {
+
     fun onDock() {
     _price.value = null
             _location.value = ""

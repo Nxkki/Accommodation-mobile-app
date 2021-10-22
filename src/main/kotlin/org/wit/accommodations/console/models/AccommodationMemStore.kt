@@ -1,4 +1,6 @@
-
+//AccommodationMemStore implements AccommodationStore and therefor contains all the methods AccommodationStore did
+//implementation is demonstrated by the overriding of findAll, findOne, create, update and delete
+//AccommodationMemStore does contain one internal function "logAll"
 package org.wit.accommodations.console.models
 import mu.KotlinLogging
 
@@ -11,6 +13,7 @@ internal fun getId(): Long {
 
 class AccommodationMemStore : AccommodationStore {
 
+//creating an accommodation arraylist to hold our accommodation model
     val accommodations = ArrayList<AccommodationModel>()
 
     override fun findAll(): List<AccommodationModel> {
